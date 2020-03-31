@@ -28,6 +28,7 @@ class Artist
       new_artist = Artist.new(name)
       new_artist
     end
+  end
 
     def print_songs
       Song.all.each {|song| puts song.name}
