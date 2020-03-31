@@ -34,4 +34,3 @@ class Artist
       Song.all.each {|song| puts song.name}
     end
   end
-
